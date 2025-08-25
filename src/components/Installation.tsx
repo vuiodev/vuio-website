@@ -13,18 +13,27 @@ const Installation = () => {
   const installCommands = [
     {
       platform: 'Docker',
-      command: 'docker run -d -p 8200:8200 -v /path/to/media:/media vuio/vuio',
+      command: 'docker run -d --name vuio-server --restart unless-stopped --network host --cap-add NET_ADMIN \
+  --cap-add NET_RAW \
+  -v /path/to/your/media:/media:ro \
+  -v ./vuio-config:/config \
+  -e VUIO_SERVER_IP=192.168.1.126 \
+  -e VUIO_PORT=8080 \
+  -e VUIO_MEDIA_DIR=/media \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  vuio:latest',
       description: 'Quick start with Docker'
     },
     {
-      platform: 'npm',
-      command: 'npm install -g vuio',
-      description: 'Install globally via npm'
+      platform: 'docker-compose',
+      command: 'docker-compose -f docker-compose.yml up',
+      description: 'Start using docker-compose'
     },
     {
       platform: 'Linux (apt)',
       command: 'curl -fsSL https://get.vuio.org | sudo bash',
-      description: 'One-line installer for Debian/Ubuntu'
+      description: 'One-line installer for Debian/Ubuntu/RHEL/CentOS'
     }
   ];
 

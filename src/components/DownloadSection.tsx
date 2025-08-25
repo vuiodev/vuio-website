@@ -5,31 +5,31 @@ const DownloadSection = () => {
     {
       platform: 'Windows',
       icon: Monitor,
-      version: 'v2.1.0',
+      version: 'v0.0.12',
       description: 'Windows 10/11 (64-bit)',
       builds: [
-        { arch: 'x86_64', size: '45 MB', downloadUrl: '#' },
-        { arch: 'ARM64', size: '42 MB', downloadUrl: '#' }
+        { arch: 'x86_64', size: '2.7 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.12/vuio-windows-x86_64.exe' },
+        { arch: 'ARM64', size: '2.6 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.12/vuio-windows-arm64.exe' }
       ]
     },
     {
       platform: 'macOS',
       icon: Monitor,
-      version: 'v2.1.0',
+      version: 'v0.0.12',
       description: 'macOS 10.15+',
       builds: [
-        { arch: 'Intel', size: '38 MB', downloadUrl: '#' },
-        { arch: 'Apple Silicon', size: '35 MB', downloadUrl: '#' }
+        { arch: 'Intel', size: '2.5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.12/vuio-macos-x86_64.tar.gz' },
+        { arch: 'Apple Silicon', size: '2.5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.12/vuio-macos-arm64.tar.gz' }
       ]
     },
     {
       platform: 'Linux',
       icon: HardDrive,
-      version: 'v2.1.0',
+      version: 'v0.0.12',
       description: 'Ubuntu, Debian, CentOS, Arch',
       builds: [
-        { arch: 'x86_64', size: '32 MB', downloadUrl: '#' },
-        { arch: 'ARM64', size: '30 MB', downloadUrl: '#' }
+        { arch: 'x86_64', size: '4.8 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.12/vuio-linux-x86_64.tar.gz' },
+        { arch: 'ARM64', size: '5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.12/vuio-linux-arm64.tar.gz' }
       ]
     },
     {
@@ -38,7 +38,7 @@ const DownloadSection = () => {
       version: 'latest',
       description: 'Cross-platform container',
       builds: [
-        { arch: 'Pull from Docker Hub', size: '~150 MB', downloadUrl: '#' }
+        { arch: 'Pull from Github', size: '~38 MB', downloadUrl: 'https://github.com/vuiodev/vuio/pkgs/container/vuio' }
       ]
     }
   ];
