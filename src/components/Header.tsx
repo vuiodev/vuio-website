@@ -1,5 +1,6 @@
 import React from 'react';
-import { Github, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import { Github } from './icons';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);

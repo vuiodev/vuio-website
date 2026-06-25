@@ -1,4 +1,5 @@
-import { Github, MessageCircle, Book, Heart } from 'lucide-react';
+import { MessageCircle, Book, Heart } from 'lucide-react';
+import { Github } from './icons';
 
 const Community = () => {
   const communityLinks = [

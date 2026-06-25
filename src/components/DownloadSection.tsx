@@ -5,31 +5,32 @@ const DownloadSection = () => {
     {
       platform: 'Windows',
       icon: Monitor,
-      version: 'v0.0.16',
+      version: 'v0.0.24',
       description: 'Windows 10/11 (64-bit)',
       builds: [
-        { arch: 'x86_64', size: '2.7 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.16/vuio-windows-x86_64.exe' },
-        { arch: 'ARM64', size: '2.6 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.16/vuio-windows-arm64.exe' }
+        { arch: 'x86_64', size: '2.7 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.24/vuio-windows-x86_64.exe' },
+        { arch: 'ARM64', size: '2.6 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.24/vuio-windows-arm64.exe' }
       ]
     },
     {
       platform: 'macOS',
       icon: Monitor,
-      version: 'v0.0.16',
+      version: 'v0.0.24',
       description: 'macOS 10.15+',
       builds: [
-        { arch: 'Intel', size: '2.5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.16/vuio-macos-x86_64.tar.gz' },
-        { arch: 'Apple Silicon', size: '2.5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.16/vuio-macos-arm64.tar.gz' }
+        { arch: 'Intel', size: '2.5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.24/vuio-macos-x86_64.tar.gz' },
+        { arch: 'Apple Silicon', size: '2.5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.24/vuio-macos-arm64.tar.gz' }
       ]
     },
     {
       platform: 'Linux',
       icon: HardDrive,
-      version: 'v0.0.16',
+      version: 'v0.0.24',
       description: 'Ubuntu, Debian, CentOS, Arch',
       builds: [
-        { arch: 'x86_64', size: '4.8 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.16/vuio-linux-x86_64.tar.gz' },
-        { arch: 'ARM64', size: '5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.16/vuio-linux-arm64.tar.gz' }
+        { arch: 'x86_64', size: '4.8 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.24/vuio-linux-x86_64.tar.gz' },
+        { arch: 'ARM64', size: '5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.24/vuio-linux-arm64.tar.gz' },
+        { arch: 'ARMv7', size: '5 MB', downloadUrl: 'https://github.com/vuiodev/vuio/releases/download/v0.0.24/vuio-linux-armv7.tar.gz' }
       ]
     },
     {

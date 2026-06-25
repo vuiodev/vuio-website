@@ -1,4 +1,5 @@
-import { Github, Twitter, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
+import { Github, Twitter } from './icons';
 
 const Footer = () => {
   return (
