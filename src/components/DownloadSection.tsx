@@ -1,4 +1,4 @@
-import { Download, Monitor, HardDrive, Box, Server, ExternalLink } from 'lucide-react';
+import { Download, Monitor, HardDrive, Server } from 'lucide-react';
 
 const DownloadSection = () => {
   const coreDownloads = [
@@ -70,16 +70,6 @@ const DownloadSection = () => {
                 <p className="text-xs text-slate-500">Ultra-lightweight Rust media server (&lt;15MB RAM)</p>
               </div>
             </div>
-            <a
-              href="https://crates.io/crates/vuio-cli"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-amber-50 text-amber-900 border border-amber-200 hover:bg-amber-100 transition-colors"
-            >
-              <Box className="h-4 w-4" />
-              <span>cargo install vuio-cli</span>
-              <ExternalLink className="h-3 w-3 opacity-60" />
-            </a>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
