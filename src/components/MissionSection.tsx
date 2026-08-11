@@ -35,7 +35,7 @@ const MissionSection = () => {
 
         {/* Mission Pillars Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
-          <div className="bg-slate-950 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between shadow-xl">
+          <div className="bg-slate-800/60 border border-slate-700/70 rounded-2xl p-8 hover:border-slate-600 hover:bg-slate-800 transition-all flex flex-col justify-between shadow-xl">
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="p-3 rounded-xl bg-blue-500/10 text-blue-400 border border-blue-500/20">
@@ -49,7 +49,7 @@ const MissionSection = () => {
               
               <div className="space-y-3">
                 {environments.map((env, i) => (
-                  <div key={i} className="flex items-start gap-3 bg-slate-900/60 p-3 rounded-xl border border-slate-800">
+                  <div key={i} className="flex items-start gap-3 bg-slate-900/60 p-3 rounded-xl border border-slate-700/50">
                     <Compass className="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
                     <div>
                       <span className="text-sm font-semibold text-white block">{env.title}</span>
@@ -61,7 +61,7 @@ const MissionSection = () => {
             </div>
           </div>
 
-          <div className="bg-slate-950 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between shadow-xl">
+          <div className="bg-slate-800/60 border border-slate-700/70 rounded-2xl p-8 hover:border-slate-600 hover:bg-slate-800 transition-all flex flex-col justify-between shadow-xl">
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="p-3 rounded-xl bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
@@ -73,7 +73,7 @@ const MissionSection = () => {
                 Beyond DLNA, Chromecast, AirPlay, and Web Player streaming, VuIO roadmap is planning to build native client applications across all major TV and mobile platforms.
               </p>
 
-              <div className="bg-slate-900/80 border border-slate-800 rounded-xl p-5 mb-6">
+              <div className="bg-slate-900/60 border border-slate-700/50 rounded-xl p-5 mb-6">
                 <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-4 flex items-center gap-2">
                   <Tv className="h-4 w-4 text-indigo-400" />
                   Upcoming Native Client Apps
