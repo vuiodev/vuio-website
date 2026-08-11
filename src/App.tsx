@@ -13,14 +13,16 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-900 font-sans selection:bg-blue-500 selection:text-white">
       <Header />
-      <Hero />
-      <Ecosystem />
-      <MissionSection />
-      <TowerSection />
-      <Features />
-      <Installation />
-      <DownloadSection />
-      <Community />
+      <main id="main-content">
+        <Hero />
+        <Ecosystem />
+        <MissionSection />
+        <TowerSection />
+        <Features />
+        <Installation />
+        <DownloadSection />
+        <Community />
+      </main>
       <Footer />
     </div>
   );
