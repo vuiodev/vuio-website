@@ -26,6 +26,9 @@ const Header = () => {
               <a href="#ecosystem" className="text-gray-700 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">
                 Ecosystem
               </a>
+              <a href="#mission" className="text-gray-700 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">
+                Mission
+              </a>
               <a href="#tower" className="text-gray-700 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">
                 VuIO Tower
               </a>

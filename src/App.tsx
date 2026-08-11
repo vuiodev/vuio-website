@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Ecosystem from './components/Ecosystem';
+import MissionSection from './components/MissionSection';
 import TowerSection from './components/TowerSection';
 import Features from './components/Features';
 import Installation from './components/Installation';
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Hero />
       <Ecosystem />
+      <MissionSection />
       <TowerSection />
       <Features />
       <Installation />

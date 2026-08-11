@@ -25,7 +25,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-slate-300 mb-10 max-w-3xl mx-auto leading-relaxed">
-            VuIO is a high-performance, cross-platform media streaming ecosystem powered by an ultra-lightweight Rust core and modern Tauri desktop apps. Built-in web catalog, search, and web player included (all browsers supported). Stream to DLNA, Chromecast, AirPlay, or control playback via AI assistants.
+            VuIO is a high-performance, cross-platform media streaming ecosystem powered by an ultra-lightweight Rust core and modern Tauri desktop apps. Built-in web catalog, search, and web player included (all browsers supported). Stream to UPnP/DLNA, Chromecast, AirPlay, or get info and control everything via AI assistants.
             <br />
             <span className="text-emerald-400 font-semibold">All of it in less than 15 MB RAM</span>
           </p>
