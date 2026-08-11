@@ -10,7 +10,8 @@ const Header = () => {
       <div className="w-full px-4 sm:px-8 lg:px-16">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-3">
-            <a href="#" className="flex items-center gap-2">
+            <a href="#" className="flex items-center gap-2.5">
+              <img src="/favicon-192.png" alt="VuIO Logo" className="h-8 w-8 rounded-lg shadow-sm" />
               <span className="text-2xl font-extrabold bg-gradient-to-r from-blue-700 to-indigo-600 bg-clip-text text-transparent">
                 VuIO
               </span>
