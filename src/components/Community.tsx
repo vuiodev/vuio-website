@@ -14,7 +14,7 @@ const Community = () => {
       icon: MessageCircle,
       title: 'Discord',
       description: 'Join our community chat',
-      link: '#',
+      link: 'https://discord.gg/UA88WR9mV',
       color: 'bg-indigo-600 hover:bg-indigo-700'
     },
     {

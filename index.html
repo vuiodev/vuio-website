@@ -2,11 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vuio - Open Source DLNA Server</title>
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://vuio.dev/" />
+
+    <title>VuIO - Open Source Media Streaming Ecosystem | Ultra-Fast Rust Core (&lt;15MB RAM)</title>
+    
+    <meta name="description" content="VuIO is a high-performance, open-source media streaming ecosystem powered by an ultra-lightweight Rust core (<15MB RAM) and Tauri desktop apps. Stream to DLNA, Chromecast, AirPlay, web browsers, and AI assistants." />
+    <meta name="keywords" content="open source media server, Rust media server, DLNA server, UPnP media server, Chromecast streaming, AirPlay video receiver, VuIO Tower, Tauri desktop app, Model Context Protocol, MCP server, low memory media server, offline media server, zero ads media server, Homebrew vuio, Docker media server, Kubernetes Helm chart vuio" />
+    
+    <!-- Open Graph / Facebook / Discord -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vuio.dev/" />
+    <meta property="og:site_name" content="VuIO Ecosystem" />
+    <meta property="og:title" content="VuIO - Open Source Media Streaming Ecosystem (<15MB RAM)" />
+    <meta property="og:description" content="Ultra-lightweight Rust media server core (<15MB RAM), Tauri desktop host, multi-protocol casting (DLNA, Google Cast, AirPlay), web player, and AI MCP server." />
+    <meta property="og:image" content="https://vuio.dev/favicon-512.png" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://vuio.dev/" />
+    <meta name="twitter:title" content="VuIO - Open Source Media Streaming Ecosystem" />
+    <meta name="twitter:description" content="High-performance, cross-platform media server in Rust (<15MB RAM) with DLNA, Chromecast, AirPlay, Web Player, and AI Model Context Protocol (MCP)." />
+    <meta name="twitter:image" content="https://vuio.dev/favicon-512.png" />
+
+    <!-- Structured Data (JSON-LD) for SoftwareApplication & OpenSourceProject -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "VuIO Media Server",
+        "operatingSystem": "macOS, Windows, Linux, Docker, Kubernetes",
+        "applicationCategory": "MultimediaApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.00",
+          "priceCurrency": "USD"
+        },
+        "description": "Ultra-lightweight open-source media server engine written in Rust with DLNA, Chromecast, AirPlay, HLS remuxing, web player, and AI MCP protocol support.",
+        "softwareVersion": "0.0.42",
+        "license": "https://opensource.org/licenses/MIT",
+        "author": {
+          "@type": "Organization",
+          "name": "VuIO Ecosystem",
+          "url": "https://vuio.dev"
+        }
+      }
+    </script>
   </head>
-  <body>
+  <body class="bg-slate-900 text-white antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
