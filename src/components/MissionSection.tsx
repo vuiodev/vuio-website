@@ -13,7 +13,8 @@ const MissionSection = () => {
     'Android & iOS Native Apps with DirectPlay',
     'Android TV & Apple TV Applications',
     'Samsung Tizen & LG webOS Smart TV Apps',
-    'Amazon Fire TV Integration'
+    'Amazon Fire TV Integration',
+    'High Availability, Fail-Over & Clustered DB Support'
   ];
 
   return (
@@ -69,7 +70,7 @@ const MissionSection = () => {
                 <h3 className="text-2xl font-bold text-white">Future Ecosystem Roadmap</h3>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed mb-6">
-                Beyond DLNA, Chromecast, AirPlay, and Web Player streaming, VuIO is actively building native client applications across all major TV and mobile platforms.
+                Beyond DLNA, Chromecast, AirPlay, and Web Player streaming, VuIO roadmap is planning to build native client applications across all major TV and mobile platforms.
               </p>
 
               <div className="bg-slate-900/80 border border-slate-800 rounded-xl p-5 mb-6">
