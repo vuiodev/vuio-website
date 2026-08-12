@@ -9,10 +9,10 @@ const Ecosystem = () => {
       icon: Server,
       accent: 'border-emerald-500/30 bg-emerald-500/5 text-emerald-600 dark:text-emerald-400',
       badge: 'Rust Engine',
-      description: 'The high-performance core engine written in Rust. Features ultra-low memory footprint (<15MB RAM), Tokio async I/O, Axum web framework, Redb embedded database, and live HLS remuxing.',
+      description: 'The high-performance core engine written in Rust. Features ultra-low memory footprint (<15MB RAM), Tokio async I/O, Axum web framework, SQLite database, and live HLS remuxing.',
       bullets: [
         'DLNA/UPnP, Chromecast & AirPlay streaming',
-        'Automatic media indexing with Redb ACID DB',
+        'Automatic media indexing with SQLite database',
         'Sub-millisecond instant search API'
       ],
       linkText: 'Explore Core Features',

@@ -12,7 +12,7 @@ const Features = () => {
       icon: Cpu,
       title: 'Ultra-Lightweight Rust Core',
       badge: '<15MB RAM',
-      description: 'Built with Rust, Tokio, Axum, and Redb ACID database. Uses minimal CPU and under 15MB of RAM even with tens of thousands of media files.'
+      description: 'Built with Rust, Tokio, Axum, and SQLite database. Uses minimal CPU and under 15MB of RAM even with tens of thousands of media files.'
     },
     {
       icon: PlayCircle,
